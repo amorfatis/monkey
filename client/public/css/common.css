@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+@import url('./base.css');
+
+html.main, 
+html.main body,
+html.main body #root {
+	height:100%;
+}
+
+.date {margin:20px 0 0 0;}
+a.id-data {text-decoration:underline;}
+select.selectbox {padding:5px;}
+.ctitle {margin:15px 0 0 0;}
+
+ /* input */
+ input.checkbox {width:18px;height:18px;background:url('../images/common/ico_chk_off.png') no-repeat 0 0;background-size:18px 18px;appearance:none;}
+ input.checkbox:checked {background:url('../images/common/ico_chk_on.png') no-repeat 0 0;background-size:18px 18px;}
+
+ /* Header */
+ div.content {padding:20px;}
+
+/* Button  */
+.btn-black {display:inline-block;padding:10px 20px;border:1px solid #000;background:#000;color:#fff;}
+.btn-right {margin:20px 0 0 0;text-align:right;}
+.btn-center {margin:20px 0 0 0;text-align:center;}
+	.btn-center button {margin:0 0 0 10px;}
+	.btn-center button:first-child {margin:0;}
+.btn-area {margin:20px 0 0 0;}
+	.btn-area .btn-left {float:left;}
+	.btn-area .btn-right {margin:0;text-align:right;}
+.btn-modify {padding:5px 15px;color:#000;background:orange;}
+.btn-delete {padding:5px 15px;color:#fff;background:#df2428;}
+.btn-cancel {display:inline-block;padding:15px 25px;border:1px solid #000;background:#fff;color:#000;}
+
+header.header {border-bottom:1px solid #000;background:rgb(33, 37, 41);}
+	header.header ul.nav {overflow:hidden;}
+	header.header ul.nav li {float:left;}
+	header.header ul.nav li a {position:relative;display:block;padding:15px;color:#fff;}
+	header.header ul.nav li a:after {content:'';position:absolute;top:calc(50% - 5px);left:0;width:1px;height:10px;background:#fff;}
+	header.header ul.nav li:first-child a:after {display:none;}
+
+section.contents {padding:0 15px 30px 15px;}
+
+table.data-list {width:100%;margin:20px 0 0 0;border-top:1px solid #000;}
+	table.data-list thead th,
+	table.data-list tbody td {padding:10px 0;border-left:1px solid #ccc;border-bottom:1px solid #000;text-align:center;}
+	table.data-list thead th {background:#e4eaf2;}
+	table.data-list thead th:first-child,
+	table.data-list tbody td:first-child {border-left:0;}
+	table.data-list tbody.write td {padding:15px 10px;}
+	table.data-list tbody.write td .ui-datepicker-trigger {margin:0 0 0 5px;vertical-align:middle;}
+
+table.data-view-write {width:100%;margin:20px 0 0 0;}
+	table.data-view-write tbody th {padding:10px 0;border-bottom:1px solid #ccc;background:#e4eaf2;text-align:center;}
+	table.data-view-write tbody td {padding:10px;border-bottom:1px solid #ccc;}
+	table.data-view-write tbody td .ui-datepicker-trigger {margin:0 0 0 5px;vertical-align:-1px;}
+	table.data-view-write tbody tr:first-child th,
+	table.data-view-write tbody tr:first-child td  {border-top:3px solid #000;}
+	table.data-view-write tbody td.delete {text-align:right;}
+
+fieldset.search {margin:20px 0 0 0;text-align:right;}
+	fieldset.search legend {display:none;}
+	fieldset.search input.text {padding:13px 10px;}
+
+fieldset.main-search {display:flex;align-items:center;justify-content:center;height:100%;}
+fieldset.main-search legend {display:none;}
+	fieldset.main-search input.text {margin:0 0 0 15px;padding:13px 10px;border-right:0;vertical-align:top;}
+	fieldset.main-search div.in-search {display:flex;align-items:center;justify-content:center;}
+
+ul.pack-list {margin:-25px 0 0 0;overflow:hidden;}
+	ul.pack-list li {position:relative;float:left;width:100%;margin:25px 0 0 0;padding:0 0 0 50px;box-sizing:border-box;}
+	ul.pack-list li .name {position:absolute;top:8px;left:0;}
+	ul.pack-list li .selectbox {width:100%;}

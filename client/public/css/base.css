@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+html, body, h1, h2, h3, h4, h5, h6, p, div, th, td, table, pre, code, form, fieldset, legend, input, button, address, ol, ul, li, dl, dt, dd, img, textarea, blockquote {margin:0;padding:0;}
+body, input, button, select, textarea, h1, h2, h3, h4, h5, h6 {font-family: 'Noto Sans KR', sans-serif;font-size:14px;color:#000;line-height:18px;font-weight:normal;}
+input, button, select, textarea {box-sizing:border-box;}
+table {table-layout:fixed;width:100%;border-collapse:separate;border-spacing:0;}
+th {font-weight:normal;}
+ol, ul {list-style-type:none;}
+img, fieldset {vertical-align:top;border:0;}
+em, i, address {font-style:normal;}
+a:link, a:visited, a:active {text-decoration:none;}
+a:hover, a:focus {text-decoration:none;/*text-decoration:underline;*/}
+button {overflow:visible;background:none;border:0;cursor:pointer;}
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {border-style:none;padding:0;}
+[type="password"] {font-family:"Verdana";}
+
+input.text {padding:5px;box-sizing:border-box;}
+select.selectbox {padding:5px;}
+hr {display:none;}

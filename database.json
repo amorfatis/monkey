@@ -1,0 +1,8 @@
+{
+	"host" : "monkey-db.cyt76allaku2.ap-northeast-2.rds.amazonaws.com",
+	"user" : "admin",
+	"password": "admin12345",
+	"port" : "3306",
+	"database" : "monkey"
+
+}
